@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from "react";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -13,194 +13,179 @@ export default function Home() {
   return (
     <main className="flex flex-col">
       <Navbar />
-      <div className="items-start px-60">
+      <div className="items-start px-4 md:px-20 lg:px-60">
         <div className="mt-10">
-          <div className="font-bold text-xl tracking-wider">
-            <span className="leading-loose">
-              Hello! I’m a UX/UI designer strongly focused <br />
+          <div className="font-bold text-lg md:text-xl md:tracking-wide text-center md:text-left md:leading-normal">
+            <span className=" ">
+              Hello! I’m a UX/UI designer strongly focused <br className="hidden md:block" />
             </span>
-            on creating{" "}
+            on creating{" "} <br className="block md:hidden" />
             <span className="bg-[#0E2954] text-[#F0F2F5] px-2 py-1 rounded-md">
               beautiful, functional UI.
             </span>
           </div>
         </div>
-        <div className="mt-12 text-2xl font-bold mb-5">My work</div>
-        <div className="flex justify-between">
-          <div className="flex flex-col">
+        <div className="mt-12 text-2xl font-bold mb-5 text-center md:text-left">My work</div>
+        <div className="flex flex-col md:flex-row md:justify-between space-y-5 md:space-y-0">
+          <div className="flex flex-col items-center md:items-start">
             <div className="bg-[#EAC7CC] rounded-lg shadow-xl w-fit">
               <Image
-                className="p-5 shadow-lg h-[22.5rem]"
+                className="p-5 shadow-lg h-[22.5rem] w-full md:w-[31.25rem]"
+                loading="lazy"
                 src="/img/sample_bg.svg"
                 alt="Sample project"
-                width="500"
-                height="0"
+                width={500}
+                height={0}
               />
             </div>
-            <div className="space-y-1 mt-3">
-              <div className="text-xl font-bold">Avoclub</div>
-              <div className="">
-                A web based SaaS product for managing restaurant deliveries
-                <br />
-                and orders.
+            <div className="space-y-1 mt-3 text-center md:text-left">
+              <div className="text-xl font-bold text-left">Ainec</div>
+              <div className="flex items-start text-left">
+                <p>
+                A web based SaaS product for managing restaurant deliveries <br className="hidden md:flex" /> and orders.
+                </p>
               </div>
-              <div className="font-bold underline">Read Case Study</div>
+              <div className="font-bold underline text-left">Read Case Study</div>
             </div>
           </div>
 
-          <div className="flex flex-col">
-            <div className="bg-[#43398E] rounded-lg shadow-xl">
+          <div className="flex flex-col items-center md:items-start">
+            <div className="bg-[#43398E] rounded-lg shadow-xl w-fit">
               <Image
-                className="p-5 shadow-lg h-[22.5rem]"
+                className="p-5 shadow-lg h-[22.5rem] w-full md:w-[31.25rem]"
                 src="/img/sample_bg.svg"
+                loading="lazy"
                 alt="Sample project"
-                width="500"
-                height="0"
+                width={500}
+                height={0}
               />
             </div>
-            <div className="space-y-1 mt-3">
-              <div className="text-xl font-bold">Avoclub</div>
-              <div className="">
-                A web based SaaS product for managing restaurant deliveries
-                <br />
-                and orders.
+            <div className="space-y-1 mt-3 text-center md:text-left">
+              <div className="text-xl font-bold text-left">Ajala</div>
+              <div className="flex items-start text-left">
+                <p>
+                A web based SaaS product for managing restaurant deliveries <br className="hidden md:flex" /> and orders.
+                </p>
               </div>
-              <div className="font-bold underline">Read Case Study</div>
+               <div className="font-bold underline text-left">Read Case Study</div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col md:flex-row md:justify-between space-y-5 md:space-y-0 md:space-x-5 mt-20">
+          <div className="flex flex-col items-center md:items-start">
+            <div className="bg-[#EAC7CC] rounded-lg shadow-xl w-fit">
+              <Image
+                className="p-5 shadow-lg h-[22.5rem] w-full md:w-[31.25rem]"
+                src="/img/sample_bg.svg"
+                alt="Sample project"
+                loading="lazy"
+                width={500}
+                height={0}
+              />
+            </div>
+            <div className="space-y-1 mt-3 text-center md:text-left">
+              <div className="text-xl font-bold text-left">Telbo</div>
+              <div className="flex items-start text-left">
+                <p>
+                A web based SaaS product for managing restaurant deliveries <br className="hidden md:flex" /> and orders.
+                </p>
+              </div>
+               <div className="font-bold underline text-left">Read Case Study</div>
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center md:items-start">
+            <div className="bg-[#43398E] rounded-lg shadow-xl w-fit">
+              <Image
+                className="p-5 shadow-lg h-[22.5rem] w-full md:w-[31.25rem]"
+                src="/img/sample_bg.svg"
+                alt="Sample project"
+                loading="lazy"
+                width={500}
+                height={0}
+              />
+            </div>
+            <div className="space-y-1 mt-3 text-center md:text-left">
+              <div className="text-xl font-bold text-left">Avoclub</div>
+              <div className="flex items-start text-left">
+                <p>
+                A web based SaaS product for managing restaurant deliveries <br className="hidden md:flex" /> and orders.
+                </p>
+              </div>
+               <div className="font-bold underline text-left">Read Case Study</div>
             </div>
           </div>
         </div>
 
-            <div className="flex mt-20 justify-between">
-              <div className="flex flex-col">
-                <div className="bg-[#43398E] rounded-lg shadow-xl">
-                  <Image
-                    className="p-5 shadow-lg h-[22.5rem]"
-                    src="/img/sample_bg.svg"
-                    alt="Sample project"
-                    width="500"
-                    height="0"
-                  />
-                </div>
-                <div className="space-y-1 mt-3">
-                  <div className="text-xl font-bold">Avoclub</div>
-                  <div className="">
-                    A web based SaaS product for managing restaurant deliveries
-                    <br />
-                    and orders.
-                  </div>
-                  <div className="font-bold underline">Read Case Study</div>
-                </div>
+        {showMore && (
+          <div className="flex flex-col md:flex-row md:justify-between space-y-5 md:space-y-0 md:space-x-5 mt-20">
+            <div className="flex flex-col items-center md:items-start">
+              <div className="bg-[#EAC7CC] rounded-lg shadow-xl w-fit">
+                <Image
+                  className="p-5 shadow-lg h-[22.5rem] w-full md:w-[31.25rem]"
+                  src="/img/sample_bg.svg"
+                  alt="Sample project"
+                  loading="lazy"
+                  width={500}
+                  height={0}
+                />
               </div>
-
-              <div className="flex flex-col">
-                <div className="bg-[#EAC7CC] rounded-lg shadow-xl">
-                  <Image
-                    className="p-5 shadow-lg h-[22.5rem]"
-                    src="/img/sample_bg.svg"
-                    alt="Sample project"
-                    width="500"
-                    height="0"
-                  />
+              <div className="space-y-1 mt-3 text-center md:text-left">
+                <div className="text-xl font-bold text-left">Aromatic</div>
+              <div className="flex items-start text-left">
+                <p>
+                A web based SaaS product for managing restaurant deliveries <br className="hidden md:flex" /> and orders.
+                </p>
                 </div>
-                <div className="space-y-1 mt-3">
-                  <div className="text-xl font-bold">Avoclub</div>
-                  <div className="">
-                    A web based SaaS product for managing restaurant deliveries
-                    <br />
-                    and orders.
-                  </div>
-                  <div className="font-bold underline">Read Case Study</div>
-                </div>
+                <div className="font-bold underline text-left">Read Case Study</div>
               </div>
             </div>
-          {showMore && (
-          <>
-            <div className="flex mt-20 justify-between">
-              <div className="flex flex-col">
-                <div className="bg-[#EAC7CC] rounded-lg shadow-xl">
-                  <Image
-                    className="p-5 shadow-lg h-[22.5rem]"
-                    src="/img/sample_bg.svg"
-                    alt="Sample project"
-                    width="500"
-                    height="0"
-                  />
-                </div>
-                <div className="space-y-1 mt-3">
-                  <div className="text-xl font-bold">Avoclub</div>
-                  <div className="">
-                    A web based SaaS product for managing restaurant deliveries
-                    <br />
-                    and orders.
-                  </div>
-                  <div className="font-bold underline">Read Case Study</div>
-                </div>
-              </div>
 
-              <div className="flex flex-col">
-                <div className="bg-[#43398E] rounded-lg shadow-xl">
-                  <Image
-                    className="p-5 shadow-lg h-[22.5rem]"
-                    src="/img/sample_bg.svg"
-                    alt="Sample project"
-                    width="500"
-                    height="0"
-                  />
+            <div className="flex flex-col items-center md:items-start">
+              <div className="bg-[#43398E] rounded-lg shadow-xl w-fit">
+                <Image
+                  className="p-5 shadow-lg h-[22.5rem] w-full md:w-[31.25rem]"
+                  src="/img/sample_bg.svg"
+                  alt="Sample project"
+                  loading="lazy"
+                  width={500}
+                  height={0}
+                />
+              </div>
+              <div className="space-y-1 mt-3 text-center md:text-left">
+                <div className="text-xl font-bold text-left">Dunamis</div>
+              <div className="flex items-start text-left">
+                <p>
+                A web based SaaS product for managing restaurant deliveries <br className="hidden md:flex" /> and orders.
+                </p>
                 </div>
-                <div className="space-y-1 mt-3">
-                  <div className="text-xl font-bold">Avoclub</div>
-                  <div className="">
-                    A web based SaaS product for managing restaurant deliveries
-                    <br />
-                    and orders.
-                  </div>
-                  <div className="font-bold underline">Read Case Study</div>
-                </div>
+                <div className="font-bold underline text-left">Read Case Study</div>
               </div>
             </div>
-          </>
+          </div>
         )}
-        <div className="items-center justify-center text-center my-20 flex">
-          <div
-            className="bg-[#0E2954] rounded-3xl shadow-lg text-[#F0F2F5] font-medium text-xl text-center w-fit px-8 py-2 cursor-pointer"
+
+        <div className="flex items-center justify-center mt-5 md:mt-10">
+          <button
             onClick={handleShowMore}
+            className="bg-[#0E2954] text-[#F0F2F5] px-4 py-2 rounded-md shadow-md hover:bg-[#0b1f3c]"
           >
-            {showMore ? "Show less" : "Show more"}
-          </div>
+            {showMore ? "Show Less" : "Show More"}
+          </button>
         </div>
-        <div id="contact" className="mt-40 items-start flex flex-col">
+
+        <div id="contact" className="mt-20 md:mt-40 flex flex-col items-start">
           <div className="font-bold text-3xl mb-3">Get in touch</div>
-          <div className="bg-[#0E2954] text-[#F0F2F5] w-fit py-3 px-10 font-medium text-lg">
+          <div className="bg-[#0E2954] text-[#F0F2F5] w-fit py-3 px-10 font-medium text-lg rounded-md">
             samuelobior@gmail.com
           </div>
           <div className="flex items-center mt-5 w-fit space-x-3">
-            <div className="flex w-fit">
-              <Image
-                className=""
-                src="/img/linkedin.png"
-                alt="LinkedIn"
-                width="28"
-                height="0"
-              />
-            </div>
-            <div className="font-medium text-lg underline">
-              linkedin.com/in/samuelobior
-            </div>
+            <Image src="/img/linkedin.png" alt="LinkedIn" width={28} height={28} />
+            <div className="font-medium text-lg underline">linkedin.com/in/samuelobior</div>
           </div>
-          <div className="flex items-center mt-5 mb-10 w-fit space-x-3">
-            <div className="flex w-fit">
-              <Image
-                className=""
-                src="/img/pdf.svg"
-                alt="Resume"
-                width="28"
-                height="0"
-              />
-            </div>
-
-            <div className="font-medium text-lg underline">
-              Resume-Samuel-Obior.pdf
-            </div>
+          <div className="flex items-center mt-5 w-fit space-x-3">
+            <Image src="/img/pdf.svg" alt="Resume" width={28} height={28} />
+            <div className="font-medium text-lg underline">Resume-Samuel-Obior.pdf</div>
           </div>
         </div>
       </div>
