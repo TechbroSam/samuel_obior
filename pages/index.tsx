@@ -25,8 +25,8 @@ export default function Home() {
             </span>
           </div>
         </div>
-        <div className="mt-10 text-2xl font-bold mb-5 text-left">My work</div>
-        <div className="flex flex-col md:flex-row md:justify-between space-y-10 md:space-y-0">
+        <div className="mt-10 text-2xl font-bold mb-3 text-left">My work</div>
+        <div className="flex flex-col md:flex-row md:justify-between space-y-10 md:space-y-0 md:space-x-5">
           <div className="flex flex-col items-center md:items-start">
             <div className="bg-[#EAC7CC] rounded-lg shadow-xl">
               <Image
