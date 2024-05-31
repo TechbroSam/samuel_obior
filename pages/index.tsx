@@ -25,8 +25,8 @@ export default function Home() {
             </span>
           </div>
         </div>
-        <div className="mt-10 text-2xl font-bold mb-3 text-left">My work</div>
-        <div className="flex flex-col md:flex-row md:justify-between space-y-10 md:space-y-0 md:space-x-5">
+        <div className="mt-10 text-xl md:text-2xl font-extrabold mb-3 text-left">My work</div>
+        <div className="flex flex-col md:flex-row md:justify-between space-y-10 md:space-y-0 md:gap-10">
           <div className="flex flex-col items-center md:items-start">
             <div className="bg-[#EAC7CC] rounded-lg shadow-xl">
               <Image
@@ -34,18 +34,18 @@ export default function Home() {
                 loading="lazy"
                 src="/img/sample_bg.svg"
                 alt="Sample project"
-                width={500}
+                width={700}
                 height={0}
               />
             </div>
-            <div className="space-y-1 mt-3 text-center md:text-left">
-              <div className="text-xl font-bold text-left">Ainec</div>
-              <div className="flex items-start text-left">
-                <p>
+            <div className="flex flex-col gap-1 md:mt-3 mt-2 text-center md:text-left">
+              <div className="text-lg md:text-xl font-bold text-left">Ainec</div>
+              
+                <p className="flex items-start text-left">
                 A web based SaaS product for managing restaurant deliveries <br className="hidden md:flex" /> and orders.
                 </p>
-              </div>
-              <div className="font-bold underline text-left">Read Case Study</div>
+              
+              <div className="font-bold underline text-left cursor-pointer ">Read Case Study</div>
             </div>
           </div>
 
@@ -56,22 +56,22 @@ export default function Home() {
                 src="/img/sample_bg.svg"
                 loading="lazy"
                 alt="Sample project"
-                width={500}
+                width={700}
                 height={0}
               />
             </div>
-            <div className="space-y-1 mt-3 text-center md:text-left">
-              <div className="text-xl font-bold text-left">Ajala</div>
-              <div className="flex items-start text-left">
-                <p>
+            <div className="flex flex-col gap-1 md:mt-3 mt-2 text-center md:text-left">
+              <div className="text-lg md:text-xl font-bold text-left">Ajala</div>
+              
+                <p className="flex items-start text-left">
                 A web based SaaS product for managing restaurant deliveries <br className="hidden md:flex" /> and orders.
                 </p>
-              </div>
-               <div className="font-bold underline text-left">Read Case Study</div>
+              
+              <div className="font-bold underline text-left cursor-pointer ">Read Case Study</div>
             </div>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row md:justify-between space-y-10 md:space-y-0 md:space-x-5 mt-10 md:mt-20">
+        <div className="flex flex-col md:flex-row md:justify-between space-y-10 md:space-y-0 md:gap-10 mt-10 md:mt-20">
           <div className="flex flex-col items-center md:items-start">
             <div className="bg-[#EAC7CC] rounded-lg shadow-xl w-fit">
               <Image
@@ -79,18 +79,18 @@ export default function Home() {
                 src="/img/sample_bg.svg"
                 alt="Sample project"
                 loading="lazy"
-                width={500}
+                width={700}
                 height={0}
               />
             </div>
-            <div className="space-y-1 mt-3 text-center md:text-left">
-              <div className="text-xl font-bold text-left">Telbo</div>
-              <div className="flex items-start text-left">
-                <p>
+            <div className="flex flex-col gap-1 md:mt-3 mt-2 text-center md:text-left">
+              <div className="text-lg md:text-xl font-bold text-left">Telbo</div>
+              
+                <p className="flex items-start text-left">
                 A web based SaaS product for managing restaurant deliveries <br className="hidden md:flex" /> and orders.
                 </p>
-              </div>
-               <div className="font-bold underline text-left">Read Case Study</div>
+              
+              <div className="font-bold underline text-left cursor-pointer ">Read Case Study</div>
             </div>
           </div>
 
@@ -101,24 +101,24 @@ export default function Home() {
                 src="/img/sample_bg.svg"
                 alt="Sample project"
                 loading="lazy"
-                width={500}
+                width={700}
                 height={0}
               />
             </div>
-            <div className="space-y-1 mt-3 text-center md:text-left">
-              <div className="text-xl font-bold text-left">Avoclub</div>
-              <div className="flex items-start text-left">
-                <p>
+            <div className="flex flex-col gap-1 md:mt-3 mt-2 text-center md:text-left">
+              <div className="text-lg md:text-xl font-bold text-left">Avoclub</div>
+              
+                <p className="flex items-start text-left">
                 A web based SaaS product for managing restaurant deliveries <br className="hidden md:flex" /> and orders.
                 </p>
-              </div>
-               <div className="font-bold underline text-left">Read Case Study</div>
+              
+              <div className="font-bold underline text-left cursor-pointer ">Read Case Study</div>
             </div>
           </div>
         </div>
 
         {showMore && (
-          <div className="flex flex-col md:flex-row md:justify-between space-y-10 md:space-y-0 md:space-x-5 mt-10 md:mt-20">
+          <div className="flex flex-col md:flex-row md:justify-between space-y-10 md:space-y-0 md:gap-10 mt-10 md:mt-20">
             <div className="flex flex-col items-center md:items-start">
               <div className="bg-[#EAC7CC] rounded-lg shadow-xl w-fit">
                 <Image
@@ -126,19 +126,19 @@ export default function Home() {
                   src="/img/sample_bg.svg"
                   alt="Sample project"
                   loading="lazy"
-                  width={500}
+                  width={700}
                   height={0}
                 />
               </div>
-              <div className="space-y-1 mt-3 text-center md:text-left">
-                <div className="text-xl font-bold text-left">Aromatic</div>
-              <div className="flex items-start text-left">
-                <p>
+            <div className="flex flex-col gap-1 md:mt-3 mt-2 text-center md:text-left">
+              <div className="text-lg md:text-xl font-bold text-left">Aromatic</div>
+              
+                <p className="flex items-start text-left">
                 A web based SaaS product for managing restaurant deliveries <br className="hidden md:flex" /> and orders.
                 </p>
-                </div>
-                <div className="font-bold underline text-left">Read Case Study</div>
-              </div>
+              
+              <div className="font-bold underline text-left cursor-pointer ">Read Case Study</div>
+            </div>
             </div>
 
             <div className="flex flex-col items-center md:items-start">
@@ -148,19 +148,19 @@ export default function Home() {
                   src="/img/sample_bg.svg"
                   alt="Sample project"
                   loading="lazy"
-                  width={500}
+                  width={700}
                   height={0}
                 />
               </div>
-              <div className="space-y-1 mt-3 text-center md:text-left">
-                <div className="text-xl font-bold text-left">Dunamis</div>
-              <div className="flex items-start text-left">
-                <p>
+            <div className="flex flex-col gap-1 md:mt-3 mt-2 text-center md:text-left">
+              <div className="text-lg md:text-xl font-bold text-left">Dunamis</div>
+              
+                <p className="flex items-start text-left">
                 A web based SaaS product for managing restaurant deliveries <br className="hidden md:flex" /> and orders.
                 </p>
-                </div>
-                <div className="font-bold underline text-left">Read Case Study</div>
-              </div>
+              
+              <div className="font-bold underline text-left cursor-pointer ">Read Case Study</div>
+            </div>
             </div>
           </div>
         )}
@@ -179,11 +179,11 @@ export default function Home() {
           <div className="bg-[#0E2954] text-[#F0F2F5] w-fit py-3 px-10 font-medium text-lg rounded-md">
             samuelobior@gmail.com
           </div>
-          <div className="flex items-center mt-5 w-fit space-x-3">
+          <div className="flex items-center mt-5 w-fit space-x-3 cursor-pointer">
             <Image src="/img/linkedin.png" alt="LinkedIn" width={28} height={28} />
             <div className="font-medium text-lg underline">linkedin.com/in/samuelobior</div>
           </div>
-          <div className="flex items-center mt-5 w-fit space-x-3">
+          <div className="flex items-center mt-5 w-fit space-x-3 cursor-pointer">
             <Image src="/img/pdf.svg" alt="Resume" width={28} height={28} />
             <div className="font-medium text-lg underline">Resume-Samuel-Obior.pdf</div>
           </div>

@@ -19,13 +19,13 @@ const MobileNav: React.FC<NavbarProps> = ({ open, setOpen }) => {
       <div className="flex items-center justify-between p-4">
         <Link href="/" className="flex items-center">
           <Image
-            className="w-10"
+            className="md:w-8 w-6"
             src="/img/my_logo.svg"
             alt="Logo"
-            width={40}
-            height={40}
+            width={32}
+            height={0}
           />
-          <div className="text-2xl font-extrabold antialiased ml-2 text-[#2E2E2E]">
+          <div className="text-2xl md:text-4xl font-extrabold antialiased ml-2 text-[#2E2E2E]">
             Samuel Obior
           </div>
         </Link>
@@ -68,13 +68,13 @@ export default function Navbar() {
       <div className="flex justify-between w-full items-center">
         <Link className="flex items-center space-x-2" href="/">
           <Image
-            className="w-8"
+             className="md:w-8 w-6"
             src="/img/my_logo.svg"
             alt="Logo"
             width={32}
-            height={32}
+            height={0}
           />
-          <div className="text-2xl font-extrabold antialiased text-[#2E2E2E]">
+          <div className="text-2xl md:text-4xl font-extrabold antialiased text-[#2E2E2E]">
             Samuel Obior
           </div>
         </Link>
@@ -94,7 +94,7 @@ export default function Navbar() {
           </Link>
         </div>
         <div
-          className="z-50 flex md:hidden relative w-8 h-8 flex-col justify-between items-center my-1"
+          className="z-50 flex md:hidden relative w-8 h-8 flex-col justify-between items-center"
           onClick={() => setOpen(!open)}
         >
           {/* hamburger button */}
