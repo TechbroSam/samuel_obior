@@ -16,16 +16,19 @@ const MobileNav: React.FC<NavbarProps> = ({ open, setOpen }) => {
         open ? "-translate-x-0" : "-translate-x-full"
       } transition-transform duration-300 ease-in-out filter drop-shadow-md bg-[#F0F2F5]`}
     >
-      <div className="flex items-center justify-between p-4">
+      <div className="items-center p-4">
         <Link href="/" className="flex items-center">
-          <Image
+          <div>
+            <Image
             className="md:w-8 w-6"
             src="/img/my_logo.svg"
             alt="Logo"
             width={32}
             height={0}
           />
-          <div className="text-2xl md:text-4xl font-extrabold antialiased ml-2 text-[#2E2E2E]">
+          </div>
+
+          <div className="text-2xl md:text-4xl font-extrabold antialiased ml-1 text-[#2E2E2E]">
             Samuel Obior
           </div>
         </Link>
@@ -66,7 +69,7 @@ export default function Navbar() {
     <nav className="z-10 flex shadow-lg items-center py-4 sticky top-0 w-full px-4 md:px-20 lg:px-60 bg-[#F0F2F5] justify-center">
       <MobileNav open={open} setOpen={setOpen} />
       <div className="flex justify-between w-full items-center">
-        <Link className="flex items-center space-x-2" href="/">
+        <Link className="flex items-center" href="/">
           <Image
              className="md:w-8 w-6"
             src="/img/my_logo.svg"
@@ -74,7 +77,7 @@ export default function Navbar() {
             width={32}
             height={0}
           />
-          <div className="text-2xl md:text-4xl font-extrabold antialiased text-[#2E2E2E]">
+          <div className="text-2xl md:text-4xl font-extrabold ml-1 antialiased text-[#2E2E2E]">
             Samuel Obior
           </div>
         </Link>

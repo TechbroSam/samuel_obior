@@ -20,7 +20,7 @@ export default function Home() {
               Hello! I’m a UX/UI designer strongly focused <br className="hidden md:block" />
             </span>
             on creating{" "} 
-            <span className="bg-[#0E2954] text-[#F0F2F5] px-2 py-1 rounded-md">
+            <span className="bg-[#1967D2] text-[#F0F2F5] px-2 py-1 rounded-md">
               beautiful, functional UI.
             </span>
           </div>
