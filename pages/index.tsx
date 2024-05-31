@@ -14,23 +14,23 @@ export default function Home() {
     <main className="flex flex-col">
       <Navbar />
       <div className="items-start px-4 md:px-20 lg:px-60">
-        <div className="mt-10">
-          <div className="font-bold text-lg md:text-xl md:tracking-wide text-center md:text-left md:leading-normal">
+        <div className="mt-8">
+          <div className="font-bold text-lg md:text-xl md:tracking-wide text-left md:leading-normal">
             <span className=" ">
               Hello! I’m a UX/UI designer strongly focused <br className="hidden md:block" />
             </span>
-            on creating{" "} <br className="block md:hidden" />
+            on creating{" "} 
             <span className="bg-[#0E2954] text-[#F0F2F5] px-2 py-1 rounded-md">
               beautiful, functional UI.
             </span>
           </div>
         </div>
-        <div className="mt-12 text-2xl font-bold mb-5 text-center md:text-left">My work</div>
-        <div className="flex flex-col md:flex-row md:justify-between space-y-5 md:space-y-0">
+        <div className="mt-10 text-2xl font-bold mb-5 text-left">My work</div>
+        <div className="flex flex-col md:flex-row md:justify-between space-y-10 md:space-y-0">
           <div className="flex flex-col items-center md:items-start">
-            <div className="bg-[#EAC7CC] rounded-lg shadow-xl w-fit">
+            <div className="bg-[#EAC7CC] rounded-lg shadow-xl">
               <Image
-                className="p-5 shadow-lg h-[22.5rem] w-full md:w-[31.25rem]"
+                className="shadow-lg p-4"
                 loading="lazy"
                 src="/img/sample_bg.svg"
                 alt="Sample project"
@@ -52,7 +52,7 @@ export default function Home() {
           <div className="flex flex-col items-center md:items-start">
             <div className="bg-[#43398E] rounded-lg shadow-xl w-fit">
               <Image
-                className="p-5 shadow-lg h-[22.5rem] w-full md:w-[31.25rem]"
+                className="shadow-lg p-4"
                 src="/img/sample_bg.svg"
                 loading="lazy"
                 alt="Sample project"
@@ -71,11 +71,11 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row md:justify-between space-y-5 md:space-y-0 md:space-x-5 mt-20">
+        <div className="flex flex-col md:flex-row md:justify-between space-y-10 md:space-y-0 md:space-x-5 mt-10 md:mt-20">
           <div className="flex flex-col items-center md:items-start">
             <div className="bg-[#EAC7CC] rounded-lg shadow-xl w-fit">
               <Image
-                className="p-5 shadow-lg h-[22.5rem] w-full md:w-[31.25rem]"
+                className="shadow-lg p-4"
                 src="/img/sample_bg.svg"
                 alt="Sample project"
                 loading="lazy"
@@ -97,7 +97,7 @@ export default function Home() {
           <div className="flex flex-col items-center md:items-start">
             <div className="bg-[#43398E] rounded-lg shadow-xl w-fit">
               <Image
-                className="p-5 shadow-lg h-[22.5rem] w-full md:w-[31.25rem]"
+                className="shadow-lg p-4"
                 src="/img/sample_bg.svg"
                 alt="Sample project"
                 loading="lazy"
@@ -118,11 +118,11 @@ export default function Home() {
         </div>
 
         {showMore && (
-          <div className="flex flex-col md:flex-row md:justify-between space-y-5 md:space-y-0 md:space-x-5 mt-20">
+          <div className="flex flex-col md:flex-row md:justify-between space-y-10 md:space-y-0 md:space-x-5 mt-10 md:mt-20">
             <div className="flex flex-col items-center md:items-start">
               <div className="bg-[#EAC7CC] rounded-lg shadow-xl w-fit">
                 <Image
-                  className="p-5 shadow-lg h-[22.5rem] w-full md:w-[31.25rem]"
+                  className="shadow-lg p-4"
                   src="/img/sample_bg.svg"
                   alt="Sample project"
                   loading="lazy"
@@ -144,7 +144,7 @@ export default function Home() {
             <div className="flex flex-col items-center md:items-start">
               <div className="bg-[#43398E] rounded-lg shadow-xl w-fit">
                 <Image
-                  className="p-5 shadow-lg h-[22.5rem] w-full md:w-[31.25rem]"
+                  className="shadow-lg p-4"
                   src="/img/sample_bg.svg"
                   alt="Sample project"
                   loading="lazy"
@@ -168,7 +168,7 @@ export default function Home() {
         <div className="flex items-center justify-center mt-5 md:mt-10">
           <button
             onClick={handleShowMore}
-            className="bg-[#0E2954] text-[#F0F2F5] px-4 py-2 rounded-md shadow-md hover:bg-[#0b1f3c]"
+            className="bg-[#0E2954] text-[#F0F2F5] px-4 py-2 rounded-md shadow-md md:hover:bg-[#0b1f3c]"
           >
             {showMore ? "Show Less" : "Show More"}
           </button>

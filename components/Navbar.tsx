@@ -10,7 +10,7 @@ interface NavbarProps {
 const MobileNav: React.FC<NavbarProps> = ({ open, setOpen }) => {
   return (
     <div
-      className={`pb-4 pl-2 absolute top-0 left-0 h-fit w-full drop-shadow-md md:hidden 
+      className={`pl-2 absolute top-0 left-0 h-fit w-full drop-shadow-md md:hidden
       
       transform ${
         open ? "-translate-x-0" : "-translate-x-full"
@@ -25,7 +25,7 @@ const MobileNav: React.FC<NavbarProps> = ({ open, setOpen }) => {
             width={40}
             height={40}
           />
-          <div className="text-2xl font-bold antialiased ml-2">
+          <div className="text-2xl font-extrabold antialiased ml-2 text-[#2E2E2E]">
             Samuel Obior
           </div>
         </Link>
@@ -63,9 +63,9 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="z-10 flex shadow-lg items-center py-2 sticky top-0 w-full px-4 md:px-20 lg:px-60 bg-[#F0F2F5]">
+    <nav className="z-10 flex shadow-lg items-center py-4 sticky top-0 w-full px-4 md:px-20 lg:px-60 bg-[#F0F2F5] justify-center">
       <MobileNav open={open} setOpen={setOpen} />
-      <div className="flex justify-between w-full">
+      <div className="flex justify-between w-full items-center">
         <Link className="flex items-center space-x-2" href="/">
           <Image
             className="w-8"
@@ -74,7 +74,7 @@ export default function Navbar() {
             width={32}
             height={32}
           />
-          <div className="text-2xl font-extrabold antialiased">
+          <div className="text-2xl font-extrabold antialiased text-[#2E2E2E]">
             Samuel Obior
           </div>
         </Link>
@@ -94,22 +94,22 @@ export default function Navbar() {
           </Link>
         </div>
         <div
-          className="z-50 flex md:hidden relative w-8 h-8 flex-col justify-between items-center"
+          className="z-50 flex md:hidden relative w-8 h-8 flex-col justify-between items-center my-1"
           onClick={() => setOpen(!open)}
         >
           {/* hamburger button */}
           <span
-            className={`h-1 w-full bg-black rounded-lg transform transition duration-300 ease-in-out ${
+            className={`h-1 w-full bg-[#2E2E2E] rounded-lg transform transition duration-300 ease-in-out ${
               open ? "rotate-45 translate-y-3.5" : ""
             }`}
           />
           {!open && (
             <span
-              className={`h-1 w-full bg-black rounded-lg transform transition duration-300 ease-in-out`}
+              className={`h-1 w-full bg-[#2E2E2E] rounded-lg transform transition duration-300 ease-in-out`}
             />
           )}
           <span
-            className={`h-1 w-full bg-black rounded-lg transform transition duration-300 ease-in-out ${
+            className={`h-1 w-full bg-[#2E2E2E] rounded-lg transform transition duration-300 ease-in-out ${
               open ? "-rotate-45 -translate-y-3.5" : ""
             }`}
           />
