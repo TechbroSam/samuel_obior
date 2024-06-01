@@ -168,7 +168,7 @@ export default function Home() {
         <div className="flex items-center justify-center mt-5 md:mt-10">
           <button
             onClick={handleShowMore}
-            className="bg-[#0E2954] text-[#F0F2F5] px-4 py-2 rounded-md shadow-md md:hover:bg-[#0b1f3c]"
+            className="bg-[#1967D2] text-[#F0F2F5] px-4 py-2 rounded-md shadow-md md:hover:bg-[#0b1f3c]"
           >
             {showMore ? "Show Less" : "Show More"}
           </button>
@@ -176,7 +176,7 @@ export default function Home() {
 
         <div id="contact" className="mt-20 md:mt-40 flex flex-col items-start">
           <div className="font-bold text-3xl mb-3">Get in touch</div>
-          <div className="bg-[#0E2954] text-[#F0F2F5] w-fit py-3 px-10 font-medium text-lg rounded-md">
+          <div className="bg-[#1967D2] text-[#F0F2F5] w-fit py-3 px-10 font-medium text-lg rounded-md">
             samuelobior@gmail.com
           </div>
           <div className="flex items-center mt-5 w-fit space-x-3 cursor-pointer">

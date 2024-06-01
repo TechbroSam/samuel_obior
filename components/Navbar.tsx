@@ -36,7 +36,7 @@ const MobileNav: React.FC<NavbarProps> = ({ open, setOpen }) => {
       </div>
       <div className="flex flex-col ml-4">
         <Link
-          className="text-xl font-normal my-4 ulnav"
+          className="text-xl font-normal my-4"
           href="/"
           onClick={() => setOpen(false)}
         >
@@ -82,17 +82,17 @@ export default function Navbar() {
           </div>
         </Link>
         <div className="hidden md:flex space-x-10 text-lg font-medium">
-          <Link href="/" className="hover:opacity-70">
+          <Link href="/" className="hover:text-[#1967D2]">
             Work
           </Link>
           <Link
             href="/Resume-Samuel-Obior.pdf"
             target="_blank"
-            className="hover:opacity-70"
+            className="hover:text-[#1967D2]"
           >
             Resume
           </Link>
-          <Link href="#contact" className="hover:opacity-70">
+          <Link href="#contact" className="hover:text-[#1967D2]">
             Contact
           </Link>
         </div>
