@@ -168,7 +168,7 @@ export default function Home() {
         <div className="flex items-center justify-center mt-5 md:mt-10">
           <button
             onClick={handleShowMore}
-            className="bg-[#1967D2] text-[#F0F2F5] px-4 py-2 rounded-md shadow-md md:hover:bg-[#0b1f3c]"
+            className="bg-[#1967D2] font-medium text-[#F0F2F5] px-4 py-2 rounded-md shadow-md md:hover:bg-opacity-90"
           >
             {showMore ? "Show Less" : "Show More"}
           </button>
