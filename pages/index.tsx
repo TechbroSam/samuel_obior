@@ -28,7 +28,7 @@ export default function Home() {
         <div className="mt-10 text-xl md:text-2xl font-extrabold mb-3 text-left">My work</div>
         <div className="flex flex-col md:flex-row md:justify-between space-y-10 md:space-y-0 md:gap-10">
           <div className="flex flex-col items-center md:items-start">
-            <div className="bg-[#EAC7CC] rounded-lg shadow-xl">
+            <div className="bg-[#EAC7CC] rounded-xl shadow-xl w-fit">
               <Image
                 className="shadow-lg p-4"
                 loading="lazy"
@@ -50,7 +50,7 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col items-center md:items-start">
-            <div className="bg-[#43398E] rounded-lg shadow-xl w-fit">
+            <div className="bg-[#43398E] rounded-xl shadow-xl w-fit">
               <Image
                 className="shadow-lg p-4"
                 src="/img/sample_bg.svg"
@@ -73,7 +73,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col md:flex-row md:justify-between space-y-10 md:space-y-0 md:gap-10 mt-10 md:mt-20">
           <div className="flex flex-col items-center md:items-start">
-            <div className="bg-[#EAC7CC] rounded-lg shadow-xl w-fit">
+            <div className="bg-[#EAC7CC] rounded-xl shadow-xl w-fit">
               <Image
                 className="shadow-lg p-4"
                 src="/img/sample_bg.svg"
@@ -95,7 +95,7 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col items-center md:items-start">
-            <div className="bg-[#43398E] rounded-lg shadow-xl w-fit">
+            <div className="bg-[#43398E] rounded-xl shadow-xl w-fit">
               <Image
                 className="shadow-lg p-4"
                 src="/img/sample_bg.svg"
@@ -120,7 +120,7 @@ export default function Home() {
         {showMore && (
           <div className="flex flex-col md:flex-row md:justify-between space-y-10 md:space-y-0 md:gap-10 mt-10 md:mt-20">
             <div className="flex flex-col items-center md:items-start">
-              <div className="bg-[#EAC7CC] rounded-lg shadow-xl w-fit">
+              <div className="bg-[#EAC7CC] rounded-xl shadow-xl w-fit">
                 <Image
                   className="shadow-lg p-4"
                   src="/img/sample_bg.svg"
@@ -142,7 +142,7 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col items-center md:items-start">
-              <div className="bg-[#43398E] rounded-lg shadow-xl w-fit">
+              <div className="bg-[#43398E] rounded-xl shadow-xl w-fit">
                 <Image
                   className="shadow-lg p-4"
                   src="/img/sample_bg.svg"
