@@ -2,6 +2,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Link from "next/link";
 
 export default function Home() {
   const [showMore, setShowMore] = useState(false);
@@ -45,7 +46,8 @@ export default function Home() {
                 A web based SaaS product for managing restaurant deliveries <br className="hidden md:flex" /> and orders.
                 </p>
               
-              <div className="font-bold underline text-left cursor-pointer ">Read Case Study</div>
+              <Link href="/conexium" target="/blank" className="font-bold underline text-left cursor-pointer ">
+                Read Case Study</Link>
             </div>
           </div>
 
