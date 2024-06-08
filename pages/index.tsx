@@ -33,7 +33,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col md:flex-row md:justify-between space-y-10 md:space-y-0 md:gap-10">
           <div className="flex flex-col items-center md:items-start">
-            <div className="bg-[#EAC7CC] rounded-xl shadow-xl w-fit">
+            <div className="bg-[#EAC7CC] rounded-lg shadow-lg w-fit">
               <Image
                 className="shadow-lg p-4"
                 loading="lazy"
@@ -43,7 +43,7 @@ export default function Home() {
                 height={0}
               />
             </div>
-            <div className="flex flex-col gap-1 md:mt-3 mt-2 text-center md:text-left">
+            <div className="flex flex-col gap-1 md:mt-2 mt-1">
               <div className="text-lg md:text-xl font-bold text-left">
                 Ainec
               </div>
@@ -64,7 +64,7 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col items-center md:items-start">
-            <div className="bg-[#43398E] rounded-xl shadow-xl w-fit">
+            <div className="bg-[#43398E] rounded-lg shadow-lg w-fit">
               <Image
                 className="shadow-lg p-4"
                 src="/img/sample_bg.svg"
@@ -74,7 +74,7 @@ export default function Home() {
                 height={0}
               />
             </div>
-            <div className="flex flex-col gap-1 md:mt-3 mt-2 text-center md:text-left">
+            <div className="flex flex-col gap-1 md:mt-2 mt-1">
               <div className="text-lg md:text-xl font-bold text-left">
                 Ajala
               </div>
@@ -92,7 +92,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col md:flex-row md:justify-between space-y-10 md:space-y-0 md:gap-10 mt-10 md:mt-20">
           <div className="flex flex-col items-center md:items-start">
-            <div className="bg-[#EAC7CC] rounded-xl shadow-xl w-fit">
+            <div className="bg-[#EAC7CC] rounded-lg shadow-lg w-fit">
               <Image
                 className="shadow-lg p-4"
                 src="/img/sample_bg.svg"
@@ -102,7 +102,7 @@ export default function Home() {
                 height={0}
               />
             </div>
-            <div className="flex flex-col gap-1 md:mt-3 mt-2 text-center md:text-left">
+            <div className="flex flex-col gap-1 md:mt-2 mt-1">
               <div className="text-lg md:text-xl font-bold text-left">
                 Telbo
               </div>
@@ -119,7 +119,7 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col items-center md:items-start">
-            <div className="bg-[#43398E] rounded-xl shadow-xl w-fit">
+            <div className="bg-[#43398E] rounded-lg shadow-lg w-fit">
               <Image
                 className="shadow-lg p-4"
                 src="/img/sample_bg.svg"
@@ -129,7 +129,7 @@ export default function Home() {
                 height={0}
               />
             </div>
-            <div className="flex flex-col gap-1 md:mt-3 mt-2 text-center md:text-left">
+            <div className="flex flex-col gap-1 md:mt-2 mt-1">
               <div className="text-lg md:text-xl font-bold text-left">
                 Avoclub
               </div>
@@ -149,7 +149,7 @@ export default function Home() {
         {showMore && (
           <div className="flex flex-col md:flex-row md:justify-between space-y-10 md:space-y-0 md:gap-10 mt-10 md:mt-20">
             <div className="flex flex-col items-center md:items-start">
-              <div className="bg-[#EAC7CC] rounded-xl shadow-xl w-fit">
+              <div className="bg-[#EAC7CC] rounded-lg shadow-lg w-fit">
                 <Image
                   className="shadow-lg p-4"
                   src="/img/sample_bg.svg"
@@ -159,7 +159,7 @@ export default function Home() {
                   height={0}
                 />
               </div>
-              <div className="flex flex-col gap-1 md:mt-3 mt-2 text-center md:text-left">
+              <div className="flex flex-col gap-1 md:mt-2 mt-1">
                 <div className="text-lg md:text-xl font-bold text-left">
                   Aromatic
                 </div>
@@ -176,7 +176,7 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col items-center md:items-start">
-              <div className="bg-[#43398E] rounded-xl shadow-xl w-fit">
+              <div className="bg-[#EAC7CC] rounded-lg shadow-lg w-fit">
                 <Image
                   className="shadow-lg p-4"
                   src="/img/sample_bg.svg"
@@ -186,7 +186,7 @@ export default function Home() {
                   height={0}
                 />
               </div>
-              <div className="flex flex-col gap-1 md:mt-3 mt-2 text-center md:text-left">
+              <div className="flex flex-col gap-1 md:mt-2 mt-1">
                 <div className="text-lg md:text-xl font-bold text-left">
                   Dunamis
                 </div>
