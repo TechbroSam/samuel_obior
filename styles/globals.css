@@ -37,3 +37,27 @@ body {
   color: #F0F2F5 !important;
 }
 
+
+.vertical-lines-wrapper {
+  position: relative;
+}
+
+.vertical-lines-wrapper::before,
+.vertical-lines-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background-color: rgb(217, 217, 217);
+}
+
+.vertical-lines-wrapper::before {
+  left: 0;
+}
+
+.vertical-lines-wrapper::after {
+  right: 0;
+}
+
+

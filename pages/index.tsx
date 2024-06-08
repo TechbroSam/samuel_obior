@@ -14,19 +14,23 @@ export default function Home() {
   return (
     <main className="flex flex-col">
       <Navbar />
+
       <div className="items-start px-4 md:px-20 lg:px-60">
         <div className="mt-8">
           <div className="font-bold text-lg md:text-xl md:tracking-wide text-left md:leading-normal">
             <span className=" ">
-              Hello! I’m a UX/UI designer strongly focused <br className="hidden md:block" />
+              Hello! I’m a UX/UI designer devoted{" "}
+              <br className="hidden md:block" />
             </span>
-            on creating{" "} 
+            to designing{" "}
             <span className="bg-[#1967D2] text-[#F0F2F5] px-2 py-1 rounded-md">
-              beautiful, functional UI.
+              stunning and practical UI.
             </span>
           </div>
         </div>
-        <div className="mt-10 text-xl md:text-2xl font-extrabold mb-3 text-left">My work</div>
+        <div className="mt-10 text-xl md:text-2xl font-extrabold mb-3 text-left">
+          My work
+        </div>
         <div className="flex flex-col md:flex-row md:justify-between space-y-10 md:space-y-0 md:gap-10">
           <div className="flex flex-col items-center md:items-start">
             <div className="bg-[#EAC7CC] rounded-xl shadow-xl w-fit">
@@ -40,14 +44,22 @@ export default function Home() {
               />
             </div>
             <div className="flex flex-col gap-1 md:mt-3 mt-2 text-center md:text-left">
-              <div className="text-lg md:text-xl font-bold text-left">Ainec</div>
-              
-                <p className="flex items-start text-left">
-                A web based SaaS product for managing restaurant deliveries <br className="hidden md:flex" /> and orders.
-                </p>
-              
-              <Link href="/conexium" target="/blank" className="font-bold underline text-left cursor-pointer ">
-                Read Case Study</Link>
+              <div className="text-lg md:text-xl font-bold text-left">
+                Ainec
+              </div>
+
+              <p className="flex items-start text-left">
+                A web based SaaS product for managing restaurant deliveries{" "}
+                <br className="hidden md:flex" /> and orders.
+              </p>
+
+              <Link
+                href="/conexium"
+                target="/blank"
+                className="font-bold underline text-left cursor-pointer "
+              >
+                Read Case Study
+              </Link>
             </div>
           </div>
 
@@ -63,13 +75,18 @@ export default function Home() {
               />
             </div>
             <div className="flex flex-col gap-1 md:mt-3 mt-2 text-center md:text-left">
-              <div className="text-lg md:text-xl font-bold text-left">Ajala</div>
-              
-                <p className="flex items-start text-left">
-                A web based SaaS product for managing restaurant deliveries <br className="hidden md:flex" /> and orders.
-                </p>
-              
-              <div className="font-bold underline text-left cursor-pointer ">Read Case Study</div>
+              <div className="text-lg md:text-xl font-bold text-left">
+                Ajala
+              </div>
+
+              <p className="flex items-start text-left">
+                A web based SaaS product for managing restaurant deliveries{" "}
+                <br className="hidden md:flex" /> and orders.
+              </p>
+
+              <div className="font-bold underline text-left cursor-pointer ">
+                Read Case Study
+              </div>
             </div>
           </div>
         </div>
@@ -86,13 +103,18 @@ export default function Home() {
               />
             </div>
             <div className="flex flex-col gap-1 md:mt-3 mt-2 text-center md:text-left">
-              <div className="text-lg md:text-xl font-bold text-left">Telbo</div>
-              
-                <p className="flex items-start text-left">
-                A web based SaaS product for managing restaurant deliveries <br className="hidden md:flex" /> and orders.
-                </p>
-              
-              <div className="font-bold underline text-left cursor-pointer ">Read Case Study</div>
+              <div className="text-lg md:text-xl font-bold text-left">
+                Telbo
+              </div>
+
+              <p className="flex items-start text-left">
+                A web based SaaS product for managing restaurant deliveries{" "}
+                <br className="hidden md:flex" /> and orders.
+              </p>
+
+              <div className="font-bold underline text-left cursor-pointer ">
+                Read Case Study
+              </div>
             </div>
           </div>
 
@@ -108,13 +130,18 @@ export default function Home() {
               />
             </div>
             <div className="flex flex-col gap-1 md:mt-3 mt-2 text-center md:text-left">
-              <div className="text-lg md:text-xl font-bold text-left">Avoclub</div>
-              
-                <p className="flex items-start text-left">
-                A web based SaaS product for managing restaurant deliveries <br className="hidden md:flex" /> and orders.
-                </p>
-              
-              <div className="font-bold underline text-left cursor-pointer ">Read Case Study</div>
+              <div className="text-lg md:text-xl font-bold text-left">
+                Avoclub
+              </div>
+
+              <p className="flex items-start text-left">
+                A web based SaaS product for managing restaurant deliveries{" "}
+                <br className="hidden md:flex" /> and orders.
+              </p>
+
+              <div className="font-bold underline text-left cursor-pointer ">
+                Read Case Study
+              </div>
             </div>
           </div>
         </div>
@@ -132,15 +159,20 @@ export default function Home() {
                   height={0}
                 />
               </div>
-            <div className="flex flex-col gap-1 md:mt-3 mt-2 text-center md:text-left">
-              <div className="text-lg md:text-xl font-bold text-left">Aromatic</div>
-              
+              <div className="flex flex-col gap-1 md:mt-3 mt-2 text-center md:text-left">
+                <div className="text-lg md:text-xl font-bold text-left">
+                  Aromatic
+                </div>
+
                 <p className="flex items-start text-left">
-                A web based SaaS product for managing restaurant deliveries <br className="hidden md:flex" /> and orders.
+                  A web based SaaS product for managing restaurant deliveries{" "}
+                  <br className="hidden md:flex" /> and orders.
                 </p>
-              
-              <div className="font-bold underline text-left cursor-pointer ">Read Case Study</div>
-            </div>
+
+                <div className="font-bold underline text-left cursor-pointer ">
+                  Read Case Study
+                </div>
+              </div>
             </div>
 
             <div className="flex flex-col items-center md:items-start">
@@ -154,15 +186,20 @@ export default function Home() {
                   height={0}
                 />
               </div>
-            <div className="flex flex-col gap-1 md:mt-3 mt-2 text-center md:text-left">
-              <div className="text-lg md:text-xl font-bold text-left">Dunamis</div>
-              
+              <div className="flex flex-col gap-1 md:mt-3 mt-2 text-center md:text-left">
+                <div className="text-lg md:text-xl font-bold text-left">
+                  Dunamis
+                </div>
+
                 <p className="flex items-start text-left">
-                A web based SaaS product for managing restaurant deliveries <br className="hidden md:flex" /> and orders.
+                  A web based SaaS product for managing restaurant deliveries{" "}
+                  <br className="hidden md:flex" /> and orders.
                 </p>
-              
-              <div className="font-bold underline text-left cursor-pointer ">Read Case Study</div>
-            </div>
+
+                <div className="font-bold underline text-left cursor-pointer ">
+                  Read Case Study
+                </div>
+              </div>
             </div>
           </div>
         )}
@@ -182,15 +219,25 @@ export default function Home() {
             samuelobior@gmail.com
           </div>
           <div className="flex items-center mt-5 w-fit space-x-3 cursor-pointer">
-            <Image src="/img/linkedin.png" alt="LinkedIn" width={28} height={28} />
-            <div className="font-medium text-lg underline">linkedin.com/in/samuelobior</div>
+            <Image
+              src="/img/linkedin.png"
+              alt="LinkedIn"
+              width={28}
+              height={28}
+            />
+            <div className="font-medium text-lg underline">
+              linkedin.com/in/samuelobior
+            </div>
           </div>
           <div className="flex items-center mt-5 w-fit space-x-3 cursor-pointer">
             <Image src="/img/pdf.svg" alt="Resume" width={28} height={28} />
-            <div className="font-medium text-lg underline">Resume-Samuel-Obior.pdf</div>
+            <div className="font-medium text-lg underline">
+              Resume-Samuel-Obior.pdf
+            </div>
           </div>
         </div>
       </div>
+
       <Footer />
     </main>
   );
