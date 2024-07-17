@@ -29,7 +29,7 @@ const MobileNav: React.FC<NavbarProps> = ({ open, setOpen }) => {
           <div>
             <Image
               className="md:w-8 w-6"
-              src="/img/my_logo.svg"
+              src="/img/portfolio_logo.svg"
               alt="Logo"
               width={32}
               height={32}
@@ -86,7 +86,7 @@ const Navbar: React.FC = () => {
         <Link className="flex items-center" href="/">
           <Image
             className="md:w-8 w-6"
-            src="/img/my_logo.svg"
+            src="/img/portfolio_logo.svg"
             alt="Logo"
             width={32}
             height={32}
