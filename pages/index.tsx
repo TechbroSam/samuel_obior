@@ -159,12 +159,15 @@ export default function Home() {
               linkedin.com/in/samuelobior
             </div>
           </Link>
-          <div className="flex items-center mt-5 w-fit space-x-3 cursor-pointer">
+          <Link
+          href={"/resume-Samuel-Obior.pdf"}
+          target="_blank"
+          className="flex items-center mt-5 w-fit space-x-3 cursor-pointer">
             <Image src="/img/pdf.svg" alt="Resume" width={28} height={28} />
             <div className="font-medium text-lg underline">
               Resume-Samuel-Obior.pdf
             </div>
-          </div>
+          </Link>
         </div>
       </div>
 
