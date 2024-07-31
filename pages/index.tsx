@@ -49,9 +49,8 @@ export default function Home() {
               </p>
 
               <Link
-                href="/conexium"
-                target="/blank"
-                className="font-bold underline text-left cursor-pointer "
+                href="/"
+                className="font-bold underline text-left"
               >
                 Read Case Study
               </Link>
@@ -79,7 +78,7 @@ export default function Home() {
                 <br className="hidden md:flex" /> and orders.
               </p>
 
-              <div className="font-bold underline text-left cursor-pointer ">
+              <div className="font-bold underline text-left">
                 Read Case Study
               </div>
             </div>
@@ -107,7 +106,7 @@ export default function Home() {
                 <br className="hidden md:flex" /> and orders.
               </p>
 
-              <div className="font-bold underline text-left cursor-pointer ">
+              <div className="font-bold underline text-left">
                 Read Case Study
               </div>
             </div>
@@ -134,7 +133,7 @@ export default function Home() {
                 <br className="hidden md:flex" /> and orders.
               </p>
 
-              <div className="font-bold underline text-left cursor-pointer ">
+              <div className="font-bold underline text-left">
                 Read Case Study
               </div>
             </div>
@@ -145,17 +144,21 @@ export default function Home() {
           <div className="bg-[#1967D2] text-[#F0F2F5] w-fit py-3 px-10 font-medium text-lg rounded-md">
             samuelobior@gmail.com
           </div>
-          <div className="flex items-center mt-5 w-fit space-x-3 cursor-pointer">
+          <Link 
+           href={"https://www.linkedin.com/in/samuelobior"}
+            target="/blank"
+          className="flex items-center mt-5 w-fit space-x-3 cursor-pointer">
             <Image
               src="/img/linkedin.png"
               alt="LinkedIn"
               width={28}
               height={28}
             />
-            <div className="font-medium text-lg underline">
+            <div
+            className="font-medium text-lg underline">
               linkedin.com/in/samuelobior
             </div>
-          </div>
+          </Link>
           <div className="flex items-center mt-5 w-fit space-x-3 cursor-pointer">
             <Image src="/img/pdf.svg" alt="Resume" width={28} height={28} />
             <div className="font-medium text-lg underline">
