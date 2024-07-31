@@ -49,7 +49,7 @@ export default function Home() {
               </p>
 
               <Link
-                href="/"
+                href=""
                 className="font-bold underline text-left"
               >
                 Read Case Study
