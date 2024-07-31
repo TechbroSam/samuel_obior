@@ -48,12 +48,12 @@ export default function Home() {
                 <br className="hidden md:flex" /> and orders.
               </p>
 
-              <Link
-                href=""
+              <div
+
                 className="font-bold underline text-left"
               >
                 Read Case Study
-              </Link>
+              </div>
             </div>
           </div>
 
