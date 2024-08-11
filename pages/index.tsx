@@ -40,12 +40,11 @@ export default function Home() {
             </div>
             <div className="flex flex-col gap-1 md:mt-2 mt-1">
               <div className="text-lg md:text-xl font-bold text-left">
-                Ainec
+                AINEC
               </div>
 
               <p className="flex items-start text-left">
-                A web based SaaS product for managing restaurant deliveries{" "}
-                <br className="hidden md:flex" /> and orders.
+                A blockchain election website for Nigerians to vote from the comfort of their homes.
               </p>
 
               <div
@@ -70,12 +69,11 @@ export default function Home() {
             </div>
             <div className="flex flex-col gap-1 md:mt-2 mt-1">
               <div className="text-lg md:text-xl font-bold text-left">
-                Ajala
+                AJALA
               </div>
 
               <p className="flex items-start text-left">
-                A web based SaaS product for managing restaurant deliveries{" "}
-                <br className="hidden md:flex" /> and orders.
+                A global money exchange mobile app designed for frequent travellers.
               </p>
 
               <div className="font-bold underline text-left">
@@ -98,12 +96,11 @@ export default function Home() {
             </div>
             <div className="flex flex-col gap-1 md:mt-2 mt-1">
               <div className="text-lg md:text-xl font-bold text-left">
-                Telbo
+                CONEXIUM
               </div>
 
               <p className="flex items-start text-left">
-                A web based SaaS product for managing restaurant deliveries{" "}
-                <br className="hidden md:flex" /> and orders.
+                A watch app to control any smart home device irrespective of the brand.
               </p>
 
               <div className="font-bold underline text-left">
@@ -125,12 +122,11 @@ export default function Home() {
             </div>
             <div className="flex flex-col gap-1 md:mt-2 mt-1">
               <div className="text-lg md:text-xl font-bold text-left">
-                Avoclub
+                YBIT
               </div>
 
               <p className="flex items-start text-left">
-                A web based SaaS product for managing restaurant deliveries{" "}
-                <br className="hidden md:flex" /> and orders.
+                A website for an organization that onboards young BAME members interested in tech.
               </p>
 
               <div className="font-bold underline text-left">
