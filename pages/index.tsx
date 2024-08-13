@@ -73,7 +73,7 @@ export default function Home() {
               </div>
 
               <p className="flex items-start text-left">
-                A currency exchange mobile app designed for global citizens that are alwyas on the move.
+                A currency exchange mobile app designed for global citizens that are always on the move.
               </p>
 
               <div className="font-bold underline text-left">
