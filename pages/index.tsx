@@ -40,7 +40,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col gap-1 md:mt-2 mt-1">
               <div className="text-lg md:text-xl font-bold text-left">
-                AINEC
+                Ainec
               </div>
 
               <p className="flex items-start text-left">
@@ -69,7 +69,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col gap-1 md:mt-2 mt-1">
               <div className="text-lg md:text-xl font-bold text-left">
-                AJALA
+                Ajala
               </div>
 
               <p className="flex items-start text-left">
@@ -96,7 +96,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col gap-1 md:mt-2 mt-1">
               <div className="text-lg md:text-xl font-bold text-left">
-                CONEXIUM
+                Conexium
               </div>
 
               <p className="flex items-start text-left">
@@ -122,7 +122,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col gap-1 md:mt-2 mt-1">
               <div className="text-lg md:text-xl font-bold text-left">
-                YBIT
+                Ybit
               </div>
 
               <p className="flex items-start text-left">
@@ -166,7 +166,6 @@ export default function Home() {
           </Link>
         </div>
       </div>
-
       <Footer />
     </main>
   );
