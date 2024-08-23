@@ -164,6 +164,15 @@ export default function Home() {
               Resume-Samuel-Obior.pdf
             </div>
           </Link>
+                    <Link
+          href={"https://github.com/TechbroSam"}
+          target="_blank"
+          className="flex items-center mt-5 w-fit space-x-3 cursor-pointer">
+            <Image src="/img/github-mark.svg" alt="Resume" width={32} height={32} />
+            <div className="font-medium text-lg underline">
+              github.com/TechbroSam
+            </div>
+          </Link>
         </div>
       </div>
       <Footer />
