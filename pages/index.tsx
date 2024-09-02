@@ -103,9 +103,10 @@ export default function Home() {
                 A watch app to control any smart home device irrespective of the brand.
               </p>
 
-              <div className="font-bold underline text-left">
+              <Link  href="conexium"
+            target="/blank" className="font-bold underline text-left">
                 Read Case Study
-              </div>
+              </Link>
             </div>
           </div>
 
