@@ -5,7 +5,7 @@ import Image from "next/image";
 function conexium() {
   return (
     <main className="flex items-center justify-center flex-col">
-      <div className="flex flex-col items-center justify-center mx-6 md:mx-20">
+      <div className="flex flex-col items-center justify-center mx-6 lg:mx-20">
         <Image
           className="w-full md:w-[70%]"
           loading="lazy"
@@ -239,7 +239,7 @@ function conexium() {
             />
           
             <iframe
-              className="w-[70%] h-[65vh] md:h-[80vh]"
+              className="w-[70%] h-[65vh] md:h-[50vh] lg:h-[80vh]"
               src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FFvs4kaevNAGZ5b7fSahuvn%2FConexium-Hub-Case-study%3Fpage-id%3D0%253A1%26node-id%3D300-1284%26node-type%3DCANVAS%26viewport%3D-870%252C118%252C0.13%26t%3De9f5BhUqQMS9n1H1-1%26scaling%3Dmin-zoom%26content-scaling%3Dfixed%26starting-point-node-id%3D243%253A1116"
               allow="fullscreen; autoplay; encrypted-media"
               allowFullScreen
