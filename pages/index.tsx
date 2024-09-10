@@ -28,11 +28,11 @@ export default function Home() {
         </div>
         <div className="flex flex-col md:flex-row md:justify-between space-y-10 md:space-y-0 md:gap-10">
           <div className="flex flex-col items-center md:items-start">
-            <div className="bg-[#EAC7CC] rounded-lg shadow-lg w-fit">
+            <div className="bg-[#2e2e2e] rounded-lg shadow-lg w-fit">
               <Image
                 className="shadow-lg p-4"
                 loading="lazy"
-                src="/img/sample_bg.svg"
+                src="/img/in_progress.svg"
                 alt="Sample project"
                 width={700}
                 height={0}
@@ -57,10 +57,10 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col items-center md:items-start">
-            <div className="bg-[#43398E] rounded-lg shadow-lg w-fit">
+            <div className="bg-[#2e2e2e] rounded-lg shadow-lg w-fit">
               <Image
                 className="shadow-lg p-4"
-                src="/img/sample_bg.svg"
+                src="/img/in_progress.svg"
                 loading="lazy"
                 alt="Sample project"
                 width={700}
@@ -84,10 +84,10 @@ export default function Home() {
         </div>
         <div className="flex flex-col md:flex-row md:justify-between space-y-10 md:space-y-0 md:gap-10 mt-10 md:mt-20">
           <div className="flex flex-col items-center md:items-start">
-            <div className="bg-[#EAC7CC] rounded-lg shadow-lg w-fit">
+            <div className="bg-[#2e2e2e] rounded-lg shadow-lg w-fit">
               <Image
                 className="shadow-lg p-4"
-                src="/img/sample_bg.svg"
+                src="/img/conexium_frame.svg"
                 alt="Sample project"
                 loading="lazy"
                 width={700}
@@ -111,10 +111,10 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col items-center md:items-start">
-            <div className="bg-[#43398E] rounded-lg shadow-lg w-fit">
+            <div className="bg-[#2e2e2e] rounded-lg shadow-lg w-fit">
               <Image
                 className="shadow-lg p-4"
-                src="/img/sample_bg.svg"
+                src="/img/in_progress.svg"
                 alt="Sample project"
                 loading="lazy"
                 width={700}
