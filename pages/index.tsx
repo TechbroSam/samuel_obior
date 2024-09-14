@@ -123,11 +123,11 @@ export default function Home() {
             </div>
             <div className="flex flex-col gap-1 md:mt-2 mt-1">
               <div className="text-lg md:text-xl font-bold text-left">
-                Ybit
+                Yait
               </div>
 
               <p className="flex items-start text-left">
-                A website for an organization that onboards young BAME members interested in tech.
+                A website for an organization that onboards young Africans in the UK who are interested in tech.
               </p>
 
               <div className="font-bold underline text-left">
