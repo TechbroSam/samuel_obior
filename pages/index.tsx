@@ -40,7 +40,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col gap-1 md:mt-2 mt-1">
               <div className="text-lg md:text-xl font-bold text-left">
-                Ainec
+                AINEC
               </div>
 
               <p className="flex items-start text-left">
@@ -123,7 +123,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col gap-1 md:mt-2 mt-1">
               <div className="text-lg md:text-xl font-bold text-left">
-                Yait
+                YAIT
               </div>
 
               <p className="flex items-start text-left">
